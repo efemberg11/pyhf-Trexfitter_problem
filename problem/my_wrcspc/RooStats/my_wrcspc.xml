@@ -1,0 +1,17 @@
+<!--
+This xml file created automatically on: 
+2022-10-17
+-->
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="my_wrcspc/RooStats/my_wrcspc" >
+
+
+  <Input>./my_wrcspc/RooStats//my_wrcspc_three_lep_presel_1jet.xml</Input>
+
+  <Measurement Name="my_wrcspc" Lumi="1" LumiRelErr="0.1" ExportOnly="True"  >
+    <POI>mu_XS_VVV</POI>  
+    <ParamSetting Const="True">Lumi</ParamSetting>
+  </Measurement> 
+
+</Combination>

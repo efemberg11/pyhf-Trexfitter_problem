@@ -1,0 +1,81 @@
+<!--
+This xml file created automatically on: 
+2022-10-17
+-->
+<!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
+
+  <Channel Name="three_lep_presel_1jet" InputFile="" >
+
+    <Data HistoName="three_lep_presel_1jet_data_regBin" InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root" HistoPath="three_lep_presel_1jet/data/nominal/"  /> 
+
+    <StatErrorConfig RelErrorThreshold="0" ConstraintType="Poisson" /> 
+
+    <Sample Name="WVZ"  HistoPath="three_lep_presel_1jet/WVZ/nominal/"  HistoName="three_lep_presel_1jet_WVZ_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+      <NormFactor Name="mu_XS_VVV"  Val="1"  High="7"  Low="-7"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="VH_signal"  HistoPath="three_lep_presel_1jet/VH_signal/nominal/"  HistoName="three_lep_presel_1jet_VH_signal_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+      <NormFactor Name="mu_XS_VVV"  Val="1"  High="7"  Low="-7"  Const="False"   /> 
+    </Sample>
+
+
+    <Sample Name="WZ"  HistoPath="three_lep_presel_1jet/WZ/nominal/"  HistoName="three_lep_presel_1jet_WZ_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="lllvjj"  HistoPath="three_lep_presel_1jet/lllvjj/nominal/"  HistoName="three_lep_presel_1jet_lllvjj_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="ZZ"  HistoPath="three_lep_presel_1jet/ZZ/nominal/"  HistoName="three_lep_presel_1jet_ZZ_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="lllljj"  HistoPath="three_lep_presel_1jet/lllljj/nominal/"  HistoName="three_lep_presel_1jet_lllljj_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="Zjets"  HistoPath="three_lep_presel_1jet/Zjets/nominal/"  HistoName="three_lep_presel_1jet_Zjets_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="Zgamma"  HistoPath="three_lep_presel_1jet/Zgamma/nominal/"  HistoName="three_lep_presel_1jet_Zgamma_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="ttZ"  HistoPath="three_lep_presel_1jet/ttZ/nominal/"  HistoName="three_lep_presel_1jet_ttZ_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="tWZ"  HistoPath="three_lep_presel_1jet/tWZ/nominal/"  HistoName="three_lep_presel_1jet_tWZ_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="tZ"  HistoPath="three_lep_presel_1jet/tZ/nominal/"  HistoName="three_lep_presel_1jet_tZ_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="VH_other"  HistoPath="three_lep_presel_1jet/VH_other/nominal/"  HistoName="three_lep_presel_1jet_VH_other_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+    <Sample Name="others"  HistoPath="three_lep_presel_1jet/others/nominal/"  HistoName="three_lep_presel_1jet_others_regBin"  InputFile="my_wrcspc/Histograms/my_wrcspc_histos.root"  NormalizeByTheory="True" >
+      <OverallSys Name="Dummy"  High="1"  Low="1"   /> 
+    </Sample>
+
+
+
+  </Channel>  
